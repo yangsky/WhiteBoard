@@ -107,18 +107,18 @@
     self.whiteboardView.pathModelAction = 1 << (sender.tag - 85);
     
     if (sender.tag == 105) {
-        UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"sides"
-                                                                                  message: @"Input sides count"
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"변"
+                                                                                  message: @"입력 변수"
                                                                            preferredStyle:UIAlertControllerStyleAlert];
         __weak typeof(self) weakSelf = self;
         [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
-            textField.placeholder = @"数量";
+            textField.placeholder = @"수";
             textField.textColor = [UIColor blueColor];
             textField.clearButtonMode = UITextFieldViewModeWhileEditing;
             textField.keyboardType = UIKeyboardTypeNumberPad;
             textField.text = @(weakSelf.whiteboardView.polygonSides).stringValue;
         }];
-        [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [alertController addAction:[UIAlertAction actionWithTitle:@"확정" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
             NSArray * textfields = alertController.textFields;
             UITextField *sidesField = textfields[0];
             if (sidesField.text.length) {
