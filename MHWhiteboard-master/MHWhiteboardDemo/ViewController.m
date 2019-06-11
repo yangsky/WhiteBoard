@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
 #import <MHWhiteboard/MHWhiteboard.h>
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 {
@@ -46,9 +46,41 @@
     });
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+//    AVQuery *query = [AVQuery queryWithClassName:@"TestObject"];
+//    [query getObjectInBackgroundWithId:@"5cf77aaed5de2b0070f16d2c" block:^(AVObject *object, NSError *error) {
+//        // object 就是 id 为 558e20cbe4b060308e3eb36c 的 Todo 对象实例
+//        // 如果 objectId 不存在，会报错 kAVErrorObjectNotFound
+//
+//        if (object) {
+//            NSString *url = [object objectForKey:@"foo"];
+//            NSLog(@"url:%@", url);
+//        }
+//
+//    }];
+//    
+//    [super viewDidAppear:YES];
+//    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
+//    [testObject setObject:@"bar" forKey:@"foo"];
+//    [testObject save];
+
+}
+
 - (IBAction)onOpenColorViewTouchUpInside:(id)sender
 {
     [self showView:self.colorsView];
+    AVQuery *query = [AVQuery queryWithClassName:@"TestObject"];
+    [query getObjectInBackgroundWithId:@"5cf77aaed5de2b0070f16d2c" block:^(AVObject *object, NSError *error) {
+        // object 就是 id 为 558e20cbe4b060308e3eb36c 的 Todo 对象实例
+        // 如果 objectId 不存在，会报错 kAVErrorObjectNotFound
+        
+        if (object) {
+            NSString *url = [object objectForKey:@"foo"];
+            NSLog(@"url:%@", url);
+        }
+        
+    }];
 }
 
 - (IBAction)onOpenWidthViewTouchUpInside:(id)sender
@@ -79,12 +111,12 @@
 
 - (IBAction)onRepeatTouchUpInside:(id)sender
 {
-    [self.whiteboardView repeat];
+    [self.whiteboardView repeatGraph];
 }
 
 - (IBAction)onClearTouchUpInside:(id)sender
 {
-    [self.whiteboardView clearAll];
+    [self.whiteboardView clearAllGraph];
 }
 
 - (IBAction)onClearBackgroundImageTouchUpInside:(id)sender
@@ -157,7 +189,7 @@
     UIImage *image = info[UIImagePickerControllerOriginalImage];
 
     if (picker == _foregroundPicker) {
-        [self.whiteboardView insertImage:image];
+        [self.whiteboardView insertImageGraph:image];
     }
     else if (picker == _backgroundPicker) {
         [self.whiteboardView setBackgroundImage:image];

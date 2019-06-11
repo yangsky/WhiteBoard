@@ -254,23 +254,23 @@
     [_drawView undo];
 }
 
-- (void)repeat
+- (void)repeatGraph
 {
-    [_drawView repeat];
+    [_drawView repeatDraw];
 }
 
-- (void)clearAll
+- (void)clearAllGraph
 {
     [self addImageViewToInsertImageViewArray];
     for (UIView *view in _insertImageViewArray) {
         [view removeFromSuperview];
     }
     [_insertImageViewArray removeAllObjects];
-    [_drawView clearAll];
+    [_drawView clearAllDraw];
     [self clearBackgroundImage];
 }
 
-- (void)insertImage:(UIImage *)image
+- (void)insertImageGraph:(UIImage *)image
 {
     CGSize size = CGSizeMake(150, image.size.height / image.size.width * 150);
     CGRect rect = CGRectMake((self.bounds.size.width - 155) / 2, (self.bounds.size.height - size.height) / 2, size.width, size.height);

@@ -1,0 +1,72 @@
+
+/* Class = "UIButton"; normalTitle = "bgImg"; ObjectID = "0ST-8m-egk"; */
+"0ST-8m-egk.normalTitle" = "bgImg";
+
+/* Class = "UIButton"; normalTitle = "15"; ObjectID = "7k5-TN-0mV"; */
+"7k5-TN-0mV.normalTitle" = "15";
+
+/* Class = "UIButton"; normalTitle = "20"; ObjectID = "B3p-9h-uMr"; */
+"B3p-9h-uMr.normalTitle" = "20";
+
+/* Class = "UIButton"; normalTitle = "eraser"; ObjectID = "Fcq-wF-U21"; */
+"Fcq-wF-U21.normalTitle" = "eraser";
+
+/* Class = "UIButton"; normalTitle = "clearBgImg"; ObjectID = "GLd-GF-VjV"; */
+"GLd-GF-VjV.normalTitle" = "clearBgImg";
+
+/* Class = "UIButton"; normalTitle = "直线"; ObjectID = "Kwx-PV-5UK"; */
+"Kwx-PV-5UK.normalTitle" = "直线";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "NWc-fb-x5a"; */
+"NWc-fb-x5a.normalTitle" = "back";
+
+/* Class = "UIButton"; normalTitle = "width"; ObjectID = "PU4-cU-g2W"; */
+"PU4-cU-g2W.normalTitle" = "width";
+
+/* Class = "UIButton"; normalTitle = "insImg"; ObjectID = "TAd-TR-seY"; */
+"TAd-TR-seY.normalTitle" = "insImg";
+
+/* Class = "UIButton"; normalTitle = "tools"; ObjectID = "VOk-jN-cd0"; */
+"VOk-jN-cd0.normalTitle" = "tools";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "W43-kD-S8V"; */
+"W43-kD-S8V.normalTitle" = "5";
+
+/* Class = "UIButton"; normalTitle = "graph"; ObjectID = "XbW-uh-L1j"; */
+"XbW-uh-L1j.normalTitle" = "graph";
+
+/* Class = "UIButton"; normalTitle = "text"; ObjectID = "cue-7e-02C"; */
+"cue-7e-02C.normalTitle" = "text";
+
+/* Class = "UIButton"; normalTitle = "线"; ObjectID = "d98-i4-T1n"; */
+"d98-i4-T1n.normalTitle" = "线";
+
+/* Class = "UIButton"; normalTitle = "repeat"; ObjectID = "jHw-AM-zcZ"; */
+"jHw-AM-zcZ.normalTitle" = "repeat";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "jYK-YN-vfg"; */
+"jYK-YN-vfg.normalTitle" = "back";
+
+/* Class = "UIButton"; normalTitle = "clear"; ObjectID = "pUl-v8-m1T"; */
+"pUl-v8-m1T.normalTitle" = "clear";
+
+/* Class = "UIButton"; normalTitle = "color"; ObjectID = "qOS-yX-stC"; */
+"qOS-yX-stC.normalTitle" = "color";
+
+/* Class = "UIButton"; normalTitle = "圆"; ObjectID = "qvP-g1-kLS"; */
+"qvP-g1-kLS.normalTitle" = "圆";
+
+/* Class = "UIButton"; normalTitle = "clearAll"; ObjectID = "r8n-wP-goX"; */
+"r8n-wP-goX.normalTitle" = "clearAll";
+
+/* Class = "UIButton"; normalTitle = "矩形"; ObjectID = "rM5-cR-A9f"; */
+"rM5-cR-A9f.normalTitle" = "矩形";
+
+/* Class = "UIButton"; normalTitle = "正多边形"; ObjectID = "roR-nQ-iFF"; */
+"roR-nQ-iFF.normalTitle" = "正多边形";
+
+/* Class = "UIButton"; normalTitle = "undo"; ObjectID = "vRy-AI-0gK"; */
+"vRy-AI-0gK.normalTitle" = "undo";
+
+/* Class = "UIButton"; normalTitle = "10"; ObjectID = "zGt-dU-J9P"; */
+"zGt-dU-J9P.normalTitle" = "10";

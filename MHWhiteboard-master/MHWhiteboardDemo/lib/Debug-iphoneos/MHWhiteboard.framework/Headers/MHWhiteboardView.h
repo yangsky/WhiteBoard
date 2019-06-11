@@ -38,13 +38,13 @@ typedef NS_OPTIONS(NSUInteger, MHPathModelAction) {
 
 @property(assign, nonatomic)IBInspectable UIViewContentMode backgroundImageContentMode;
 
-- (void)insertImage:(UIImage *)image;
+- (void)insertImageGraph:(UIImage *)image;
 - (void)setBackgroundImage:(UIImage *)image;
 - (void)clearBackgroundImage;
 
 - (void)undo;
-- (void)repeat;
-- (void)clearAll;
+- (void)repeatGraph;
+- (void)clearAllGraph;
 
 @end
 

@@ -21,8 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(strong, nonatomic)UIFont *textFont;
 
 - (void)undo;
-- (void)repeat;
-- (void)clearAll;
+- (void)repeatDraw;
+- (void)clearAllDraw;
 
 @end
 

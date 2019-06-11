@@ -201,7 +201,7 @@
     [self setNeedsDisplay];
 }
 
-- (void)repeat
+- (void)repeatDraw
 {
     for (MHPathModel *pathModel in _pathModelArray) {
         if (pathModel.action & MHPathModelActionUndo) {
@@ -213,7 +213,7 @@
     [self setNeedsDisplay];
 }
 
-- (void)clearAll
+- (void)clearAllDraw
 {
     for (MHPathModel *pathModel in _pathModelArray) {
         pathModel.action |= MHPathModelActionUndo;
