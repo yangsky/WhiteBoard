@@ -221,35 +221,35 @@
                                 <subviews>
                                     <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d98-i4-T1n">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="线"/>
+                                        <state key="normal" title="line"/>
                                         <connections>
                                             <action selector="onSelectGraphTouchUpInisde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DWF-8U-EZj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kwx-PV-5UK">
-                                        <rect key="frame" x="74" y="0.0" width="31" height="30"/>
-                                        <state key="normal" title="直线"/>
+                                        <rect key="frame" x="46" y="0.0" width="39" height="30"/>
+                                        <state key="normal" title="s-line"/>
                                         <connections>
                                             <action selector="onSelectGraphTouchUpInisde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzB-yu-YES"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvP-g1-kLS">
-                                        <rect key="frame" x="148.5" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="圆"/>
+                                        <rect key="frame" x="100.5" y="0.0" width="37" height="30"/>
+                                        <state key="normal" title="circle"/>
                                         <connections>
                                             <action selector="onSelectGraphTouchUpInisde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wl-8Z-icQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM5-cR-A9f">
-                                        <rect key="frame" x="222.5" y="0.0" width="31" height="30"/>
-                                        <state key="normal" title="矩形"/>
+                                        <rect key="frame" x="153.5" y="0.0" width="79" height="30"/>
+                                        <state key="normal" title="rectangular"/>
                                         <connections>
                                             <action selector="onSelectGraphTouchUpInisde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="roF-FE-M3f"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roR-nQ-iFF">
-                                        <rect key="frame" x="297" y="0.0" width="62" height="30"/>
-                                        <state key="normal" title="正多边形"/>
+                                        <rect key="frame" x="248" y="0.0" width="111" height="30"/>
+                                        <state key="normal" title="Regular polygon"/>
                                         <connections>
                                             <action selector="onSelectGraphTouchUpInisde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOn-2n-4sJ"/>
                                         </connections>

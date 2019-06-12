@@ -122,7 +122,7 @@
         static const CGFloat bottomMargin = 4.0f;
         static const CGFloat innerMargin = 7.0f;
         
-        CGSize textSize = [[NSAttributedString alloc] initWithString:@"文字/words" attributes: @{NSFontAttributeName: self.textFont}].size;
+        CGSize textSize = [[NSAttributedString alloc] initWithString:@"문자/words" attributes: @{NSFontAttributeName: self.textFont}].size;
         _textField = [[UITextField alloc] initWithFrame:CGRectMake(location.x - innerMargin, location.y - topMargin, self.frame.size.width - location.x - rightMargin, textSize.height + topMargin + bottomMargin)];
         _textField.borderStyle = UITextBorderStyleRoundedRect;
         _textField.delegate = self;
