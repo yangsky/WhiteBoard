@@ -15,7 +15,7 @@
 "GLd-GF-VjV.normalTitle" = "clearBgImg";
 
 /* Class = "UIButton"; normalTitle = "直线"; ObjectID = "Kwx-PV-5UK"; */
-"Kwx-PV-5UK.normalTitle" = "直线";
+"Kwx-PV-5UK.normalTitle" = "s-line";
 
 /* Class = "UIButton"; normalTitle = "back"; ObjectID = "NWc-fb-x5a"; */
 "NWc-fb-x5a.normalTitle" = "back";
@@ -39,7 +39,7 @@
 "cue-7e-02C.normalTitle" = "text";
 
 /* Class = "UIButton"; normalTitle = "线"; ObjectID = "d98-i4-T1n"; */
-"d98-i4-T1n.normalTitle" = "线";
+"d98-i4-T1n.normalTitle" = "line";
 
 /* Class = "UIButton"; normalTitle = "repeat"; ObjectID = "jHw-AM-zcZ"; */
 "jHw-AM-zcZ.normalTitle" = "repeat";
@@ -54,16 +54,16 @@
 "qOS-yX-stC.normalTitle" = "color";
 
 /* Class = "UIButton"; normalTitle = "圆"; ObjectID = "qvP-g1-kLS"; */
-"qvP-g1-kLS.normalTitle" = "圆";
+"qvP-g1-kLS.normalTitle" = "circle";
 
 /* Class = "UIButton"; normalTitle = "clearAll"; ObjectID = "r8n-wP-goX"; */
 "r8n-wP-goX.normalTitle" = "clearAll";
 
 /* Class = "UIButton"; normalTitle = "矩形"; ObjectID = "rM5-cR-A9f"; */
-"rM5-cR-A9f.normalTitle" = "矩形";
+"rM5-cR-A9f.normalTitle" = "rectangular";
 
 /* Class = "UIButton"; normalTitle = "正多边形"; ObjectID = "roR-nQ-iFF"; */
-"roR-nQ-iFF.normalTitle" = "正多边形";
+"roR-nQ-iFF.normalTitle" = "Regular polygon";
 
 /* Class = "UIButton"; normalTitle = "undo"; ObjectID = "vRy-AI-0gK"; */
 "vRy-AI-0gK.normalTitle" = "undo";
