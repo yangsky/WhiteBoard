@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6F534422B089F900058250 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534122B089F900058250 /* AVOSCloudIM.framework */; };
+		0E6F534522B089F900058250 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534222B089F900058250 /* AVOSCloud.framework */; };
+		0E6F534622B089F900058250 /* MHWhiteboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534322B089F900058250 /* MHWhiteboard.framework */; };
+		0E6F534722B08A6300058250 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534222B089F900058250 /* AVOSCloud.framework */; };
+		0E6F534822B08A6300058250 /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534222B089F900058250 /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E6F534922B08A6300058250 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534122B089F900058250 /* AVOSCloudIM.framework */; };
+		0E6F534A22B08A6300058250 /* AVOSCloudIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534122B089F900058250 /* AVOSCloudIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E6F534B22B08A6300058250 /* MHWhiteboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534322B089F900058250 /* MHWhiteboard.framework */; };
+		0E6F534C22B08A6300058250 /* MHWhiteboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6F534322B089F900058250 /* MHWhiteboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7CF4C71521E6F7F100890AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4C71421E6F7F100890AA5 /* AppDelegate.m */; };
 		7CF4C71821E6F7F100890AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4C71721E6F7F100890AA5 /* ViewController.m */; };
 		7CF4C71B21E6F7F100890AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF4C71921E6F7F100890AA5 /* Main.storyboard */; };
@@ -14,12 +23,6 @@
 		7CF4C72021E6F7F300890AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF4C71E21E6F7F300890AA5 /* LaunchScreen.storyboard */; };
 		7CF4C72321E6F7F300890AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4C72221E6F7F300890AA5 /* main.m */; };
 		EC07ECD822ACF39400783CB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC07ECDA22ACF39400783CB6 /* Localizable.strings */; };
-		EC8C1B8922AFE42300FF4B19 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECF522AFDD5300783CB6 /* AVOSCloud.framework */; };
-		EC8C1B8A22AFE42300FF4B19 /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECF522AFDD5300783CB6 /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC8C1B8B22AFE42300FF4B19 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECF422AFDD5300783CB6 /* AVOSCloudIM.framework */; };
-		EC8C1B8C22AFE42300FF4B19 /* AVOSCloudIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECF422AFDD5300783CB6 /* AVOSCloudIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EC8C1B8D22AFE42300FF4B19 /* MHWhiteboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECD122AA4F9000783CB6 /* MHWhiteboard.framework */; };
-		EC8C1B8E22AFE42300FF4B19 /* MHWhiteboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC07ECD122AA4F9000783CB6 /* MHWhiteboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +32,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EC8C1B8A22AFE42300FF4B19 /* AVOSCloud.framework in Embed Frameworks */,
-				EC8C1B8C22AFE42300FF4B19 /* AVOSCloudIM.framework in Embed Frameworks */,
-				EC8C1B8E22AFE42300FF4B19 /* MHWhiteboard.framework in Embed Frameworks */,
+				0E6F534822B08A6300058250 /* AVOSCloud.framework in Embed Frameworks */,
+				0E6F534A22B08A6300058250 /* AVOSCloudIM.framework in Embed Frameworks */,
+				0E6F534C22B08A6300058250 /* MHWhiteboard.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E6F534122B089F900058250 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudIM.framework; path = MHWhiteboardDemo/lib/AVOSCloudIM.framework; sourceTree = "<group>"; };
+		0E6F534222B089F900058250 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloud.framework; path = MHWhiteboardDemo/lib/AVOSCloud.framework; sourceTree = "<group>"; };
+		0E6F534322B089F900058250 /* MHWhiteboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MHWhiteboard.framework; path = MHWhiteboardDemo/lib/MHWhiteboard.framework; sourceTree = "<group>"; };
 		7CF4C71021E6F7F100890AA5 /* MHWhiteboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHWhiteboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF4C71321E6F7F100890AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF4C71421E6F7F100890AA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,16 +55,10 @@
 		7CF4C71F21E6F7F300890AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CF4C72121E6F7F300890AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF4C72221E6F7F300890AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC07ECD122AA4F9000783CB6 /* MHWhiteboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MHWhiteboard.framework; sourceTree = "<group>"; };
-		EC07ECD322AA4F9000783CB6 /* MHWhiteboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MHWhiteboard.framework; sourceTree = "<group>"; };
 		EC07ECD922ACF39400783CB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EC07ECDB22ACF3CF00783CB6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		EC07ECDC22ACF3CF00783CB6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EC07ECDD22ACF3CF00783CB6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EC07ECF422AFDD5300783CB6 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
-		EC07ECF522AFDD5300783CB6 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
-		EC07ECF822AFDD5F00783CB6 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
-		EC07ECF922AFDD5F00783CB6 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8C1B8922AFE42300FF4B19 /* AVOSCloud.framework in Frameworks */,
-				EC8C1B8B22AFE42300FF4B19 /* AVOSCloudIM.framework in Frameworks */,
-				EC8C1B8D22AFE42300FF4B19 /* MHWhiteboard.framework in Frameworks */,
+				0E6F534422B089F900058250 /* AVOSCloudIM.framework in Frameworks */,
+				0E6F534522B089F900058250 /* AVOSCloud.framework in Frameworks */,
+				0E6F534B22B08A6300058250 /* MHWhiteboard.framework in Frameworks */,
+				0E6F534922B08A6300058250 /* AVOSCloudIM.framework in Frameworks */,
+				0E6F534622B089F900058250 /* MHWhiteboard.framework in Frameworks */,
+				0E6F534722B08A6300058250 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,39 +115,11 @@
 		7CF4C72921E6F82C00890AA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC07ECCF22AA4F9000783CB6 /* lib */,
+				0E6F534222B089F900058250 /* AVOSCloud.framework */,
+				0E6F534122B089F900058250 /* AVOSCloudIM.framework */,
+				0E6F534322B089F900058250 /* MHWhiteboard.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC07ECCF22AA4F9000783CB6 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				EC07ECD022AA4F9000783CB6 /* Release-iphoneos */,
-				EC07ECD222AA4F9000783CB6 /* Debug-iphoneos */,
-			);
-			name = lib;
-			path = MHWhiteboardDemo/lib;
-			sourceTree = "<group>";
-		};
-		EC07ECD022AA4F9000783CB6 /* Release-iphoneos */ = {
-			isa = PBXGroup;
-			children = (
-				EC07ECF522AFDD5300783CB6 /* AVOSCloud.framework */,
-				EC07ECF422AFDD5300783CB6 /* AVOSCloudIM.framework */,
-				EC07ECD122AA4F9000783CB6 /* MHWhiteboard.framework */,
-			);
-			path = "Release-iphoneos";
-			sourceTree = "<group>";
-		};
-		EC07ECD222AA4F9000783CB6 /* Debug-iphoneos */ = {
-			isa = PBXGroup;
-			children = (
-				EC07ECF822AFDD5F00783CB6 /* AVOSCloud.framework */,
-				EC07ECF922AFDD5F00783CB6 /* AVOSCloudIM.framework */,
-				EC07ECD322AA4F9000783CB6 /* MHWhiteboard.framework */,
-			);
-			path = "Debug-iphoneos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,13 +355,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34PF87G72M;
+				DEVELOPMENT_TEAM = CHX656NT89;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/MHWhiteboardDemo/lib/Release-iphoneos",
 					"$(PROJECT_DIR)/MHWhiteboardDemo/lib/Debug-iphoneos",
+					"$(PROJECT_DIR)/MHWhiteboardDemo/lib",
 				);
 				INFOPLIST_FILE = MHWhiteboardDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -394,7 +370,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fight.whiteboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fight.whiteboard.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -408,13 +384,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34PF87G72M;
+				DEVELOPMENT_TEAM = CHX656NT89;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/MHWhiteboardDemo/lib/Release-iphoneos",
 					"$(PROJECT_DIR)/MHWhiteboardDemo/lib/Debug-iphoneos",
+					"$(PROJECT_DIR)/MHWhiteboardDemo/lib",
 				);
 				INFOPLIST_FILE = MHWhiteboardDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -422,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fight.whiteboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fight.whiteboard.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;

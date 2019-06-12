@@ -1,6 +1,0 @@
-framework module MHWhiteboard {
-  umbrella header "MHWhiteboard.h"
-
-  export *
-  module * { export * }
-}
